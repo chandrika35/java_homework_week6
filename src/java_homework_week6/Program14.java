@@ -1,0 +1,27 @@
+package java_homework_week6;
+/**14. Write a Java program to print the area and perimeter of a rectangle.
+ *Test Data:
+ Width = 5.6 Height = 8.5
+
+*Expected Output:
+ * Area is 5.6 * 8.5 = 47.60
+ * Perimeter is 2 * (5.6 + 8.5) = 28.20 */
+
+
+public class Program14 {
+    public static void main(String[] args) {
+        AreaPerimeter();
+
+    }
+public static void AreaPerimeter(){
+    final double width = 5.6;
+    final double height = 8.5;
+
+    double Perimeter = 2*(width + height);
+    double Area = width * height;
+    System.out.printf("Area is %.1f * %.1f  = %.2f \n",width, height, Area);
+    System.out.printf("Perimeter is 2 * (%.1f + %.1f) = %.2f \n",width, height, Perimeter);
+
+}
+    }
+
